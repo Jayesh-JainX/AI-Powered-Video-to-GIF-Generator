@@ -6,7 +6,11 @@ A full-stack web application that automatically generates captioned GIFs from Yo
 
 ## 📸 Preview
 
-![App Screenshot](./screenshots/app-preview.png)
+![App Screenshot 1](./images/1.png)
+
+![App Screenshot 2](./images/2.png)
+
+![App Screenshot 3](./images/3.png)
 
 ---
 
