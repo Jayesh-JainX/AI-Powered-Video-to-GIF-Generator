@@ -27,11 +27,10 @@ A full-stack web application that automatically generates captioned GIFs from Yo
 
 ## 🧰 Tech Stack
 
-| Layer    | Technology                                  |
-| -------- | ------------------------------------------- |
-| Frontend | Next.js, Tailwind CSS, Supabase Auth        |
-| Backend  | FastAPI, MoviePy, OpenCV, faster-whisper    |
-| Hosting  | (You can deploy to Vercel & Railway/Fly.io) |
+| Layer    | Technology                           |
+| -------- | ------------------------------------ |
+| Frontend | Next.js, Tailwind CSS, Supabase Auth |
+| Backend  | FastAPI, MoviePy, faster-whisper     |
 
 ---
 
