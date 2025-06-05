@@ -12,6 +12,10 @@ A full-stack web application that automatically generates captioned GIFs from Yo
 
 ![App Screenshot 3](./images/3.png)
 
+<a href="https://drive.google.com/file/d/1lev6eeZEF6qOKxWmnGovSY7ObH-mTYMK/view" target="_blank">
+  <img src="https://github.com/user-attachments/assets/d8ca39de-cfe4-4ee1-a40a-2104bec7ca87" alt="Demo_Video" />
+</a>
+
 ---
 
 ## 🌟 Features
