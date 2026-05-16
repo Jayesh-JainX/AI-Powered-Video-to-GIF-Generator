@@ -49,22 +49,29 @@ cd video-to-gif-ai
 
 ### 2. Setup Environment Variables
 
-Create a .env.local inside frontend/:
+#### Frontend
 
-```
-NEXT_PUBLIC_SUPABASE_URL=https://spnedzyzlwtlfhwgiguj.supabase.co
+Create a `.env` or `.env.local` inside `frontend/` (refer to `.env.example`):
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
 ```
+
+#### Backend
+
+Create a `.env` inside `backend/` if required (refer to `.env.example`).
 
 ### 3. Run Backend
 
 ```
 cd backend
-python3 -m venv venv
-source venv/bin/activate
+python -m venv venv
+venv\Scripts\activate  # On Windows
+# source venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 Make sure it runs at: http://localhost:8000
